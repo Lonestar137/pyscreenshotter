@@ -11,7 +11,7 @@ LONG_DESCRIPTION = 'A simple screenshot application which captures the screen on
 
 # Setting up
 setup(
-    name="ssmanager",
+    name="pyscreenshotter",
     version=VERSION,
     author="Garrett Jones",
     author_email="jonesgc137@gmail.com",
