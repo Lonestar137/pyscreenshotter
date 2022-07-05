@@ -6,6 +6,6 @@
 
 ## Changing Keybinds  
 1. You can change the keybinds by passing two cmdline arguments like so:  
-   ~pyscreenshotter j k~  
+   pyscreenshotter j k  
 
    I.e. make j = capture, and k = quit  
