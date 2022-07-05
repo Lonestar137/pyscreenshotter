@@ -5,7 +5,7 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
 
-VERSION = '0.1.0'
+VERSION = '0.1.2'
 DESCRIPTION = 'A simple screenshot application.'
 LONG_DESCRIPTION = 'A simple screenshot application which captures the screen on a key press.'
 
@@ -24,7 +24,7 @@ setup(
     keywords=['opencv', 'keyboard', 'screenshot', 'pyautogui'],
     entry_points={
         'console_scripts': [
-            'pyscreen=pyscreenshotter_Lonestar137.main:main'
+            'pyscreen=pyscreenshotter.main:main'
             ]
     },
     classifiers=[
