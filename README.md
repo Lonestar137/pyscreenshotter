@@ -1,4 +1,3 @@
-#+title: Readme
 
 # Getting started  
 1. `pip install pyscreenshotter`  
