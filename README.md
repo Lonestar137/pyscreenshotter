@@ -9,3 +9,16 @@
    pyscreenshotter j k  
 
    I.e. make j = capture, and k = quit  
+   
+## Interpreting from source  
+
+1. Clone the project.  
+
+2. Install the requirements:  
+`pip install -r requirements.txt`  
+
+3. Run the project:  
+`python pyscreenshotter/main.py`
+
+
+
