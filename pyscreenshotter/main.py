@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from time import sleep
 import numpy as np
 import cv2
 import pyautogui
@@ -74,6 +75,9 @@ def main():
             print(f"SNAP! {paddedNum}.png")
         elif(keyboard.is_pressed(quit_key)):
             exit()
+        else:
+            sleep(0.1)
+
 
 if __name__ == '__main__':
     main()
